@@ -87,3 +87,20 @@ git commit -m "Mensaje descriptivo"
 ```sh
 git diff
 ```
+## Con la tecla 'Q' se sale de less en la terminal
+## En el editor nano con 'ctrl + o' se guarda y con 'ctrl + x' se sale
+
+## Listar timeline de commits dentro del repo local
+
+```sh
+git log
+git log --oneline
+```
+
+## Para volver a colocar los archivos que tengo en el SA al WD
+
+```sh
+git restore --staged <nombre-archivo>
+git restore --staged clase-01/README.md
+git restore --staged . # todos los archivos que esten en el staging area
+```
