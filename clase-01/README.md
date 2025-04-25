@@ -1,5 +1,53 @@
 ## Git
 
+# Clase 01 - Git Desarrollo Colaborativo
+
+## Verificando que tenga git instalando
+
+```sh
+git --version
+```
+
+## Ver si tengo un usuario y correo configurado
+
+```sh
+git config --global -e
+# Controla especificamente si tengo usuario y correo
+git config --global --get-regexp user
+```
+
+## Configuración inicial
+
+```sh
+git config --global user.name "Maximiliano Principe"
+git config --global user.email mlapeducacionit@gmail.com
+```
+
+## Como remover algo que no deseo este
+
+```sh
+git config --global --unset user.email
+```
+
+## Cambiar el editor a nano
+
+```sh
+git config --global core.editor nano
+```
+
+# Creando el repositorio de git
+Eso crea la carpeta .git que es la metadata del repositorio
+
+```sh
+git init
+```
+
+## Listar archivos directorio actual
+
+```sh
+ls # listar
+```
+
 ## Cambiar el nombre por defecto de la rama principal
 
 ```sh
@@ -21,10 +69,21 @@ git config --global init-defaultBranch main
 
 * Local Repo (Area de validación de cambios, donde se registran las modificaciones realizadas) Donde van a estar todas las fotos (commit) que vaya sacando.
 
-
 ## Agrego en el staging area archivo (Area de confirmación)
 
 ```sh
 git add <nombre-archivo>
 git add clase-01/README.md
+```
+
+## Hacer un commit de los cambios que están en el Staging Area
+
+```sh
+git commit -m "Mensaje descriptivo"
+```
+
+## Ver las diferencias entre los archivos que están en el Working Directory contra el Local Repo
+
+```sh
+git diff
 ```
