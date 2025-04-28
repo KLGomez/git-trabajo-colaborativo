@@ -116,3 +116,9 @@ Si yo me quiero traer los cambios de dev a main. Tengo que estar parado sobre la
 git switch main
 git merge dev
 ```
+
+## Subir una rama al remoto
+```sh
+git push -u origin dev # para asociar la rama local con la rama remota que se va a crear en el github
+```
+
