@@ -32,10 +32,21 @@ git push origin main # Si existe la rama main en el remoto sube los cambios y si
 git push -u origin main # La primera vez que subo una rama al repositorio remoto
 # -u -> Es sincronizar la rama del remoto con la rama del local -> Vincular la rama local con la rama remota.
 
-git push # Las sucesivas veces que haga git push, no necesito indicar el remoto y la rama que quiero subir.
-
+git push # Las sucesivas veces que haga git push, no necesito indicar el remoto y la rama que quiero subir
 ```
 
-
 # git fetch
+Me actualiza la carpeta .git (Me actualizar la carpeta .git del local con respecto al remoto)
+
+```sh
+git fetch
+git fetch --help
+```
+
 # git pull
+Me traigo (archivos/carpetas) los cambios que están en el remoto al local
+
+```sh
+git pull <remoto> <rama>
+git pull origin main
+```
