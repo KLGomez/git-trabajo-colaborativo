@@ -86,7 +86,7 @@ git switch <rama>
 
 ```sh
 git switch -c <rama>
-git swicht -c hotfix
+
 
 ```
 
@@ -95,3 +95,10 @@ git swicht -c hotfix
 ```sh
 git switch -
 ```
+
+## Borrar ramas
+
+```sh
+git branch -d <rama>
+```
+
