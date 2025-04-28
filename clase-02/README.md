@@ -102,3 +102,7 @@ git switch -
 git branch -d <rama>
 ```
 
+## Extensione Visual Studio Code
+
+- GitLens
+- Git Graph
